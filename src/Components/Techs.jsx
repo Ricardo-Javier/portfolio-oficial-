@@ -2,7 +2,7 @@ import React from 'react';
 import './ProjectModal.scss'
 import '../Views/Section5/Section5.jsx'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {faHtml5, faSass, faJs, faReact } from '@fortawesome/free-brands-svg-icons';
+import {faHtml5, faSass, faJs} from '@fortawesome/free-brands-svg-icons';
 import './Techs.scss'
 import { useInView } from "react-intersection-observer";
 

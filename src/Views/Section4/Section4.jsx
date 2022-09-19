@@ -1,6 +1,5 @@
 import React from 'react'
 import './Section4.scss';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { useInView } from "react-intersection-observer";
 import { Line } from '../../Components/Line';
 import Techs from '../../Components/Techs';
