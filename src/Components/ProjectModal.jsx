@@ -5,7 +5,8 @@ import Modal from 'react-bootstrap/Modal';
 import './ProjectModal.scss'
 import '../Views/Section5/Section5.jsx'
 import video1 from '../assets/project1.mp4'
-
+import video2 from '../assets/project2.mp4'
+import video3 from '../assets/project3.mp4'
 import { useInView } from "react-intersection-observer";
 
 
@@ -34,15 +35,15 @@ const Modals = () => {
       classname:'project-anim1',
     },
     {
-      title: "project2",
-      description: "The Door Drop is a web app made for restaurants that allow customers take orders directly from the table, including payment, sign in and login options. It was made with Chris Angelos (a classmate) and thinked in COVID time. Is a FullStack web app, and those were the first animations that I tried.",
-      video: video1,
+      title: "Portfolio Idea",
+      description: "Idea of landing page with 3D elements. Made in React with React-Three-Fiber and Drei, use of gltf model, environment, scroll behaviour inside the canvas, and React Router.",
+      video: video2,
       classname:'project-anim2',
     },
     {
-      title: "project3",
-      description: "The Door Drop is a web app made for restaurants that allow customers take orders directly from the table, including payment, sign in and login options. It was made with Chris Angelos (a classmate) and thinked in COVID time. Is a FullStack web app, and those were the first animations that I tried.",
-      video: video1,
+      title: "Personal Website",
+      description: "Personal Portfolio using React, React-Three-Fiber, Drei, React-Bootstrap, LottieFiles, and a few libraries focused on animations. Html and 3D elements mixed without conflicts.",
+      video: video3,
       classname:'project-anim3',
     },
   ];
@@ -63,7 +64,7 @@ const Modals = () => {
       <Modal show={show} key={index} onHide={handleClose} animation={true}>        
         <h1 className='modaltitle'>{card.title}</h1>            
         <p className='modaltext'>{card.description}</p>
-        <video width="400" autoPlay>
+        <video webkit-playsinline={true} playsInLine width="400" autoPlay>
   <source src={card.video} type="video/mp4"/>
  
   Your browser does not support HTML video.
