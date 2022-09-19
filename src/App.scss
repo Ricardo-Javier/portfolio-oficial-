@@ -1,0 +1,136 @@
+html {
+  font-family: 'Orbitron', sans-serif;
+  color: white;
+}
+
+.App {
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+  
+}
+
+.bg {
+  position: fixed;
+  top: -50%;
+  left: -50%;
+  right: -50%;
+  bottom: -50%;
+  width: 200%;
+  height: 200vh;
+  background: transparent url('http://assets.iceable.com/img/noise-transparent.png') repeat 0 0;
+  background-repeat: repeat;
+  // animation: bg-animation .2s infinite;
+  opacity: 1;
+  visibility: visible;
+  z-index: 999999999;
+  pointer-events: none;
+}
+
+// @keyframes bg-animation {
+//     0% { transform: translate(0,0) }
+//     10% { transform: translate(-5%,-5%) }
+//     20% { transform: translate(-10%,5%) }
+//     30% { transform: translate(5%,-10%) }
+//     40% { transform: translate(-5%,15%) }
+//     50% { transform: translate(-10%,5%) }
+//     60% { transform: translate(15%,0) }
+//     70% { transform: translate(0,10%) }
+//     80% { transform: translate(-15%,0) }
+//     90% { transform: translate(10%,5%) }
+//     100% { transform: translate(5%,0) }
+// }
+
+
+
+
+.title{
+font-size: 4rem;
+font-family: 'Orbitron', sans-serif;
+font-weight:900;
+text-shadow:  5px 5px 5px rgba(54, 47, 47, 0.353);
+position: relative;
+white-space: nowrap;
+transition: all 20000ms ease;
+
+opacity: 0.90;
+
+}
+.title.outview {
+  transform: translateX(-1000px);
+  
+}
+
+
+.mainbutton{
+  position: relative;
+  top:3rem;
+  left: 0rem;
+  z-index: 99;
+  color: white;
+  background-color:  #411e58; 
+  border: none;
+  font-family: 'Orbitron', sans-serif;
+  cursor: pointer;
+  font-size: 1.2rem;
+
+  padding: 5PX 10px 5px 10px;
+  width: 140px;
+ 
+
+}
+
+.mainbutton:hover{
+  color: #411e58;
+  transition: all 200ms ease-in-out;
+  background-color:white;
+  transform: scale(1.2);
+}
+
+.mainbutton:not(:hover){
+  transition: all 200ms ease-in-out;
+}
+
+
+
+
+canvas {
+	-webkit-animation: canvas 3s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: canvas 3s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+@-webkit-keyframes canvas {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes canvas {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+svg:hover{
+  transition: all 200ms ease-in-out;
+  transform: scale(1.3);
+
+}
+
+svg:not(:hover){
+  transition: all 200ms ease-in-out;
+ 
+}
+
+a{
+  padding: 0;
+}

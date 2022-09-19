@@ -1,0 +1,61 @@
+.section7{
+  text-align:center;
+  position: absolute;
+  top:360rem;
+  width: 100vw;
+
+  
+  
+          
+}
+
+.section7.outview {
+  background-color: transparent; 
+}
+
+.title-footer{
+  position: absolute;
+  top:10vh;
+
+}
+
+
+.footerbutton{
+  position: relative;
+margin-top: -50vh;
+
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  padding: 5px;
+}
+
+a:hover{
+  color: #49a09d ;
+}
+
+.text-muted{
+  margin-top: 3vh;
+  padding-bottom: 20px;
+}
+
+.text-center{
+  position: relative;
+  top: 10vh;
+  
+}
+
+
+.fa-angles-up {
+  font-size: 2rem;
+  margin-top: 3vh;
+}
+
+.card-body{
+  padding-top: 30vh;
+  background-image: linear-gradient( #01010100, #000000);
+  height: 110vh;
+  
+}

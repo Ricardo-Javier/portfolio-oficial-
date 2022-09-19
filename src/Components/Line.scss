@@ -1,0 +1,23 @@
+.line{
+  transition: all 10000ms ease-in-out;
+  animation-delay: 2000ms;
+  animation-iteration-count: infinite;
+  position: relative;
+  opacity: 0.3;
+  width: 100vw;
+  height: 0.22vh;
+  background-color: white;
+  margin-top: -4vh;
+  margin-bottom: -4vh;
+}
+
+.line.outview {
+  transform: scale(1)
+
+  
+ 
+  
+}
+
+
+

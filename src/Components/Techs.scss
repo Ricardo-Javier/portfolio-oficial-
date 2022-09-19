@@ -1,0 +1,86 @@
+.techs{
+display: inline-flex;
+justify-content: space-evenly;
+flex-wrap: wrap;
+margin-top: 24vh;
+
+}
+
+.tech-title{
+  font-size: 1.4vh;
+  font-weight: 300;
+  width: 6rem;
+  background-color: #411e58;
+  padding: 5px;
+ 
+  font-family: 'Orbitron', sans-serif;
+  
+}
+
+.tech{
+  margin: 1.5rem;
+  transform: scale(1.2);
+}
+
+
+.tech-anim1{
+  transition: all 500ms ease-in-out;
+  transition-delay: 500ms;
+}
+
+.tech-anim1.outview {          
+  opacity: 0;
+}
+
+.tech-anim2{
+  transition: all 500ms ease-in-out;
+  transition-delay:700ms;
+}
+
+.tech-anim2.outview {          
+  opacity: 0;
+}
+
+.tech-anim3{
+  transition: all 500ms ease-in-out;
+  transition-delay: 900ms;
+}
+
+.tech-anim3.outview {          
+  opacity: 0;
+}
+
+.tech-anim4{
+  transition: all 500ms ease-in-out;
+  transition-delay: 1100ms;
+}
+
+.tech-anim4.outview {          
+  opacity: 0;
+}
+
+.tech-anim5{
+  transition: all 500ms ease-in-out;
+  transition-delay: 1300ms;
+}
+
+.tech-anim5.outview {          
+  opacity: 0;
+}
+.tech:hover{
+  transition: all 200ms ease-in-out;
+  transform: scale(1.7);
+ 
+  
+}
+
+.tech:not(:hover){
+  transition: all 200ms ease-in-out;
+  
+}
+
+.tech-title:hover{
+  background-color: white;
+  color: #411e58;
+
+}

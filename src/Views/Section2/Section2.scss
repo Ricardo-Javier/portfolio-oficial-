@@ -1,0 +1,117 @@
+.section2{
+text-align:center;
+width: 100%;
+position: relative;
+top:50rem;
+height: 100vh;
+
+}
+
+
+.about-container{
+position:relative;
+top: 15vh;
+width: 100%;
+}
+
+.about{
+  position:relative;
+  font-size: 1.4rem;
+  justify-content: center; 
+  font-family: 'Orbitron', sans-serif;
+  font-weight:500;
+  margin: 5vh;
+
+
+}
+
+.ab-one{
+transition: all 500ms ease-in-out;
+transition-delay: 1000ms;
+;}
+
+.ab-one.outview {
+ 
+  opacity: 0;
+}
+
+.ab-two{
+  transition: all 500ms ease-in-out;
+  transition-delay: 1300ms;}
+  
+  .ab-two.outview {
+    
+    opacity: 0;
+  }
+
+  .ab-three{
+    transition: all 500ms ease-in-out;
+    transition-delay: 1600ms;
+    display: flex;
+    flex-direction: row;
+  
+  }
+    
+    .ab-three.outview {
+     
+      opacity: 0;
+    }
+
+    .ab-four{
+      transition: all 500ms ease-in-out;
+      transition-delay: 1900ms;}
+      
+      .ab-four.outview {
+       
+        opacity: 0;
+      }
+
+      .ab-five{
+        transition: all 500ms ease-in-out;
+        transition-delay: 2200ms;}
+        
+        .ab-five.outview {
+         
+          opacity: 0;
+        }
+
+        .ab-six{
+          transition: all 500ms ease-in-out;
+          transition-delay: 2500ms;}
+          
+          .ab-six.outview {
+        
+            opacity: 0;
+          }
+
+
+          .ab-seven{
+            transition: all 500ms ease-in-out;
+            transition-delay: 2800ms;
+       margin-top: 10vh;
+            display:flex;
+            flex-direction: column;
+            align-items: center;
+            font-size: 15px;
+          
+          }
+
+          .ab-seven.outview {
+          
+            opacity: 0;
+          }
+
+          .resumebutton{
+            margin-top: -5vh;
+            width: 270px !important;
+            font-size: 2.5vh;
+            padding: 10px;
+          }       
+          
+            
+          .ab-seven.outview {
+          
+            opacity: 0;
+          }
+
+     

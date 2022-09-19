@@ -1,0 +1,11 @@
+Model Information:
+* title:	3D scan glitch
+* source:	https://sketchfab.com/3d-models/3d-scan-glitch-eff63a63dda443bc89f127b606c9d9da
+* author:	postdadafuturism (https://sketchfab.com/postdadafuturism)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "3D scan glitch" (https://sketchfab.com/3d-models/3d-scan-glitch-eff63a63dda443bc89f127b606c9d9da) by postdadafuturism (https://sketchfab.com/postdadafuturism) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

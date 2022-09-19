@@ -1,0 +1,62 @@
+.section5{
+text-align:center;
+width: 100vw;
+display: flex;
+flex-direction: column;
+position: absolute;
+top:190rem;
+   
+}
+
+
+.projects{
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  margin-top: 10vh;
+
+}
+
+
+
+.project{ 
+
+ width: 270px;
+ height: 170px;
+ text-align:center;
+ margin: 7vh;
+ overflow: hidden;
+z-index: 9;
+box-shadow: 10px 10px 10px rgba(54, 47, 47, 0.353);
+
+background-color: #49a09dcb;
+
+}
+
+
+.titmodal{
+  font-size: 2.5vh;
+	margin-top: 3vh;
+  font-weight: 300;
+  font-family: 'Orbitron', sans-serif;
+
+}
+
+
+
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+
+

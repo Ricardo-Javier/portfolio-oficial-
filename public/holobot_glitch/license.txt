@@ -1,0 +1,11 @@
+Model Information:
+* title:	Holobot Glitch
+* source:	https://sketchfab.com/3d-models/holobot-glitch-6fdc3b47026d441e9fc2470b97d53d3a
+* author:	Miguelangelo Rosario (https://sketchfab.com/miguelangelo2k)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Holobot Glitch" (https://sketchfab.com/3d-models/holobot-glitch-6fdc3b47026d441e9fc2470b97d53d3a) by Miguelangelo Rosario (https://sketchfab.com/miguelangelo2k) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

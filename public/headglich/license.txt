@@ -1,0 +1,11 @@
+Model Information:
+* title:	HeadGlich
+* source:	https://sketchfab.com/3d-models/headglich-6b54028607c841e4814b7d48a97257dc
+* author:	romenkova (https://sketchfab.com/romenkova)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "HeadGlich" (https://sketchfab.com/3d-models/headglich-6b54028607c841e4814b7d48a97257dc) by romenkova (https://sketchfab.com/romenkova) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

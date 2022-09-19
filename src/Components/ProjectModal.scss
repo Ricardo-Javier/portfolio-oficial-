@@ -1,0 +1,103 @@
+.modal-dialog{
+  display: flex;
+  align-items: center;
+  position: absolute;
+  z-index: 999;
+  background-color: #49a09db9;
+  top: 0vh;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+}
+
+.modal-content{
+  position: absolute;
+  bottom: 8rem;
+  display: flex;
+  background-color: #602c82ce;
+  flex-direction: column;
+  align-items: center;
+  width: 70vw;
+  height: 70vh;
+ padding: 10px 30px 30px 30px;
+ justify-content: space-evenly;
+ border: solid 2px white;
+ 
+}
+
+.modaltext{
+  margin-bottom: 1rem;
+  padding: 50px;
+  font-weight: 100;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 0.9rem;
+  text-align: justify;
+}
+
+.closebutton{
+  
+  margin-bottom: 20vh;
+ 
+}
+
+.covervideo{
+  display: flex;
+  background-image: linear-gradient(to bottom right, #49a09d, #581b86);
+  height: 150px;
+  width: 100%;
+  font-size: 2rem;
+  font-family: 'Orbitron', sans-serif;
+ 
+  text-align: center;
+  justify-content: center;
+  align-items: center
+}
+
+video{
+  height: 150px;
+  width: 100%;
+
+}
+
+.modaltitle{
+  position: relative;
+  top: 15vh;
+  font-size: 1.4rem;
+  margin-bottom: 10vh;
+
+}
+
+.infobutton{
+margin-bottom: 10vh;
+}
+
+.moreprojbutton{
+  width: 130px;
+}
+
+.project-anim1{
+  transition: all 700ms ease-in-out;
+  transition-delay: 100ms;
+}
+
+.project-anim1.outview {          
+  opacity: 0;
+}
+
+.project-anim2{
+  transition: all 700ms ease-in-out;
+  transition-delay:300ms;
+}
+
+.project-anim2.outview {          
+  opacity: 0;
+}
+
+.project-anim3{
+  transition: all 700ms ease-in-out;
+  transition-delay: 600ms;
+}
+
+.project-anim3.outview {          
+  opacity: 0;
+}
