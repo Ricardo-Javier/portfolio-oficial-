@@ -28,7 +28,7 @@ function Section6() {
     <>
       <div ref={ref} className={`section6 ${actionClass}`}> 
       <Line/>
-      <h1 ref={ref} className={`title ${actionClass}`}>CONTACT | CONTACT | CONTACT | CONTACT | CONTACT | CONTACT | CONTACT | </h1> 
+      <h1 ref={ref} className={`title ${actionClass}`}>CONTACT * CONTACT * CONTACT * CONTACT * CONTACT * CONTACT * CONTACT * </h1> 
       <Line/>
         <p ref={ref} className={`form-text text-anim-cont ${actionClass}`}>If you are looking to add a junior/trainee level developer to your team, reach me out! 
         <br/>I'm open to learn everything with passion and hard-working.       

@@ -27,7 +27,7 @@ function Section2 () {
     <>
       <div ref={ref} className={`section2 ${actionClass}`}>
         <Line/>
-      <h1 ref={ref} className={`title ${actionClass}`}>ABOUT ME | ABOUT ME | ABOUT ME | ABOUT ME | ABOUT ME | ABOUT ME | ABOUT ME | ABOUT ME | ABOUT ME |</h1>
+      <h1 ref={ref} className={`title ${actionClass}`}>ABOUT ME * ABOUT ME * ABOUT ME * ABOUT ME * ABOUT ME * ABOUT ME * ABOUT ME * ABOUT ME * ABOUT ME *</h1>
       <Line/>
       <div className='about-container'>       
       <h1 ref={ref} className={`about ab-one ${actionClass}`}> FULL STACK WEB DEVELOPMENT CERTIFICATE </h1>

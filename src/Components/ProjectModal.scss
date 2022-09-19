@@ -3,7 +3,6 @@
   align-items: center;
   position: absolute;
   z-index: 999;
-  background-color: #49a09db9;
   top: 0vh;
   width: 100vw;
   height: 100vh;
@@ -14,14 +13,14 @@
   position: absolute;
   bottom: 8rem;
   display: flex;
-  background-color: #602c82ce;
+  background-color: #49a09de8;
   flex-direction: column;
   align-items: center;
   width: 70vw;
   height: 70vh;
  padding: 10px 30px 30px 30px;
  justify-content: space-evenly;
- border: solid 2px white;
+ border: solid 0.8px #411e58;
  
 }
 

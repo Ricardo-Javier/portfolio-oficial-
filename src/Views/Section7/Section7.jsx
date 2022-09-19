@@ -31,7 +31,7 @@ function Section7() {
     
       <Card className="text-center">
      
-      <div ref={ref} className={`title title-footer ${actionClass}`}>RICARDO-JAVIER.COM | RICARDO-JAVIER.COM | RICARDO-JAVIER.COM | RICARDO-JAVIER.COM | RICARDO-JAVIER.COM | RICARDO-JAVIER.COM |
+      <div ref={ref} className={`title title-footer ${actionClass}`}>RICARDO-JAVIER.COM * RICARDO-JAVIER.COM * RICARDO-JAVIER.COM * RICARDO-JAVIER.COM * RICARDO-JAVIER.COM * RICARDO-JAVIER.COM *
       </div>
     
       <Card.Body>

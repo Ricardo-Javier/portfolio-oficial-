@@ -29,7 +29,7 @@ function Section5() {
     <>
     <div ref={ref} className={`section5 ${actionClass}`}>
     <Line/>
-    <h1 ref={ref} className={`title ${actionClass}`}>PROJECTS | PROJECTS | PROJECTS | PROJECTS | PROJECTS | PROJECTS | PROJECTS</h1>
+    <h1 ref={ref} className={`title ${actionClass}`}>PROJECTS * PROJECTS * PROJECTS * PROJECTS * PROJECTS * PROJECTS * PROJECTS</h1>
     <Line/>
       <Modals/>
     </div> 

@@ -2,9 +2,11 @@ import React from 'react';
 import './ProjectModal.scss'
 import '../Views/Section5/Section5.jsx'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {faHtml5, faSass, faJs} from '@fortawesome/free-brands-svg-icons';
+import {faHtml5, faSass, faJs, faReact} from '@fortawesome/free-brands-svg-icons';
 import './Techs.scss'
 import { useInView } from "react-intersection-observer";
+import { ReactComponent as IconThree } from '../assets/Threejs-logo.svg';
+import { ReactComponent as IconLottie } from '../assets/lottie-files.svg';
 
 
 const Techs = () => {
@@ -44,15 +46,22 @@ const Techs = () => {
       
     },
     {
-      icon: <FontAwesomeIcon style={{fontSize:'7vh'}} icon={faJs}/>,
-      title: "THREE.JS",
+      icon: <FontAwesomeIcon style={{fontSize:'7vh'}} icon={faReact}/>,
+      title: "REACT",
       classname:'tech-anim4',
       
     },
     {
-      icon: <FontAwesomeIcon style={{fontSize:'7vh'}} icon={faJs}/>,
-      title: "LOTTIE",
+      icon: <IconThree className='icon'/>, 
+      title: "THREE.JS",
       classname:'tech-anim5',
+      
+    },
+    
+    {
+      icon: <IconLottie className='icon'/>,
+      title: "LOTTIE",
+      classname:'tech-anim6',
       
     },
 
@@ -64,6 +73,7 @@ const Techs = () => {
       <>
         <div ref={ref} className={`${card.classname} ${actionClass}`}>
         <div className='tech' key={index} >
+          
           {card.icon}        
         <h1 className='tech-title'>
           {card.title}

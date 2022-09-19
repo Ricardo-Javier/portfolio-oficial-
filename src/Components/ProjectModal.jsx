@@ -29,7 +29,7 @@ const Modals = () => {
 
  const modalInfo = [
     {
-      title: "The Door Drop App",
+      title: "Restaurant App",
       description: "Web app made for restaurants that allow customers take orders directly from the table, including payment, sign in and login options.",
       video: video1,
       classname:'project-anim1',
