@@ -1,7 +1,7 @@
-import {React, useState} from 'react'
+import {React} from 'react'
 import './Line.scss';
 import { useInView } from "react-intersection-observer";
-import lines from '../assets/circle1.svg'
+
 
 
 

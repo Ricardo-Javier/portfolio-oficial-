@@ -1,11 +1,8 @@
 import React from 'react'
 import './Section5.scss';
 import { useInView } from "react-intersection-observer";
-import { ProjectVideo } from '../../Components/HoverVideoPlayer';
-// import { ProjectModal } from '../../Components/ProjectModal';
 import '../../Components/ProjectModal.scss'
 import Modals from '../../Components/ProjectModal';
-import { Button } from 'react-bootstrap';
 import { Line } from '../../Components/Line';
 
 

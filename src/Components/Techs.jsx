@@ -1,7 +1,4 @@
-import React, { useState } from 'react';
-import Button from 'react-bootstrap/Button';
-import Modal from 'react-bootstrap/Modal';
-import { ProjectVideo } from './HoverVideoPlayer';
+import React from 'react';
 import './ProjectModal.scss'
 import '../Views/Section5/Section5.jsx'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';

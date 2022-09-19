@@ -1,7 +1,6 @@
 import React from 'react'
 import './Section4.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {faHtml5, faSass, faJs, faReact } from '@fortawesome/free-brands-svg-icons';
 import { useInView } from "react-intersection-observer";
 import { Line } from '../../Components/Line';
 import Techs from '../../Components/Techs';

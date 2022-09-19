@@ -2,7 +2,7 @@ import React from 'react'
 import './Section6.scss';
 import {ContactForm} from './ContactForm';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {faWhatsapp, faLinkedin, faInstagram } from '@fortawesome/free-brands-svg-icons';
+import {faWhatsapp, faLinkedin} from '@fortawesome/free-brands-svg-icons';
 import { faPhone } from '@fortawesome/free-solid-svg-icons';
 import { useInView } from "react-intersection-observer";
 import { Line } from '../../Components/Line';

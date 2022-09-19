@@ -1,8 +1,8 @@
 import React, { useRef, useLayoutEffect, useEffect } from 'react'
 import * as THREE from 'three'
-import { useGLTF, useAnimations, useScroll, Html } from '@react-three/drei'
+import { useGLTF, useAnimations, useScroll} from '@react-three/drei'
 import { useFrame } from '@react-three/fiber'
-import {Layout} from '../Views/Layout/Layout'
+
 
 
 

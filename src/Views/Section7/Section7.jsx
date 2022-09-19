@@ -1,13 +1,10 @@
 import React from 'react'
 import './Section7.scss';
 import { useInView } from "react-intersection-observer";
-import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {faWhatsapp, faLinkedin, faInstagram } from '@fortawesome/free-brands-svg-icons';
-import { faAnglesUp, faChevronUp, faPhone } from '@fortawesome/free-solid-svg-icons';
-import { Line } from '../../Components/Line';
-import { faArrowAltCircleUp, faEnvelope, faHome, faUser } from '@fortawesome/free-solid-svg-icons';
+import {faWhatsapp, faLinkedin  } from '@fortawesome/free-brands-svg-icons';
+import { faAnglesUp, faPhone } from '@fortawesome/free-solid-svg-icons';
 
 
 
@@ -68,13 +65,13 @@ function Section7() {
           <br/>
           <br/>
      
-         <a target ='_blank' href="https://skfb.ly/6TTzK"> * 3D MODEL</a>
+         <a target ='_blank' rel="noreferrer" href="https://skfb.ly/6TTzK"> * 3D MODEL</a>
          <br/>
-         <a target ='_blank' href="https://codesandbox.io/s/scroll-based-animation-nqhw4?file=/src/components/Particles.js"> * PARTICLES</a>
+         <a target ='_blank' rel="noreferrer" href="https://codesandbox.io/s/scroll-based-animation-nqhw4?file=/src/components/Particles.js"> * PARTICLES</a>
          <br/>
-         <a target ='_blank' href="https://codesandbox.io/s/scrollcontrols-gltf-4jr4p"> * CAMERA</a>
+         <a target ='_blank' rel="noreferrer" href="https://codesandbox.io/s/scrollcontrols-gltf-4jr4p"> * CAMERA</a>
          <br/>
-         <a target ='_blank' href="https://codesandbox.io/s/figma-noodles-iedfg"> * BACKGROUND</a>          
+         <a target ='_blank' rel="noreferrer" href="https://codesandbox.io/s/figma-noodles-iedfg"> * BACKGROUND</a>          
         </Card.Text>
         <a className='arrowup' href="#1">
           <FontAwesomeIcon icon ={faAnglesUp}/>

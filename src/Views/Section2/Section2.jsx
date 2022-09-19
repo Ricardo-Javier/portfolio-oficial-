@@ -1,9 +1,8 @@
-import {React, useState} from 'react'
+import {React} from 'react'
 import './Section2.scss';
 import { useInView } from "react-intersection-observer";
 import {Line} from '../../Components/Line';
 import Button from 'react-bootstrap/Button';
-import AnimHearts from '../../Components/AnimHearts';
 
 
 

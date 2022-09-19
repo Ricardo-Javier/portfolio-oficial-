@@ -1,4 +1,4 @@
-import { Suspense } from 'react';
+
 import { Loader } from '@react-three/drei'
 
 

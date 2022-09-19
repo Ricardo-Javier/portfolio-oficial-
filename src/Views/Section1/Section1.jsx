@@ -1,11 +1,8 @@
-import {React, useEffect} from 'react'
+import {React} from 'react'
 import ScrollAnim from '../../Components/ScrollAnim';
 import './Section1.scss';
 import { useInView } from "react-intersection-observer";
-import HelloAnim from '../../Components/HelloAnim';
-import { gsap } from "gsap";
-import { useRef } from 'react';
-import { Line } from '../../Components/Line';
+
 
 
 
