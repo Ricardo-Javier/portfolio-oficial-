@@ -24,7 +24,7 @@ function Section4() {
       <Line/>
 
      <h1 ref={ref} className={`title ${actionClass}`}>
-       SKILLS *vSKILLS *vSKILLS * SKILLS * SKILLS * SKILLS * SKILLS * SKILLS * SKILLS * SKILLS * SKILLS *
+       SKILLS * SKILLS * SKILLS * SKILLS * SKILLS * SKILLS * SKILLS * SKILLS * SKILLS * SKILLS * SKILLS *
       </h1>
       <Line/>
       <Techs/>

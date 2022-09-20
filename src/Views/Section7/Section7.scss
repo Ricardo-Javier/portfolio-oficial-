@@ -1,13 +1,21 @@
 .section7{
   text-align:center;
   position: absolute;
-  top:360rem;
+  top:355rem;
   width: 100vw;
+}
+
+@media screen and (min-width: 600px) {
+  .section7{
+    top:370rem
+  }
+}
+
 
   
   
           
-}
+
 
 .section7.outview {
   background-color: transparent; 
