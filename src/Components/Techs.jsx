@@ -1,6 +1,6 @@
 import React from 'react';
 import './ProjectModal.scss'
-import '../Views/Section5/Section5.jsx'
+import '../Views/Section4/Section4.jsx'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faHtml5, faSass, faJs, faReact} from '@fortawesome/free-brands-svg-icons';
 import './Techs.scss'

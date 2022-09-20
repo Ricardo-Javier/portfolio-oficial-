@@ -1,6 +1,6 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
-import './Section6.scss';
+import './Section5.scss';
 import { useInView } from "react-intersection-observer";
 
 

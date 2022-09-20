@@ -1,9 +1,8 @@
 import React from 'react'
 import './Section3.scss';
 import { useInView } from "react-intersection-observer";
-
-
-
+import { Line } from '../../Components/Line';
+import Techs from '../../Components/Techs';
 
 
 function Section3() {
@@ -19,15 +18,21 @@ function Section3() {
   } else {
     actionClass = "outview";
   }
-
   return (
     <>
-     
-      <div ref={ref} className={`section3 box ${actionClass}`}>
-      <p className='parag'>  Full Stack Web Development  Front-End Development. Animations and 3D. animation/design tools, such as Adobe Suite softwares, No-Code platforms, etc. </p> 
-      </div>      
+    <div ref={ref} className={`section3 box ${actionClass}`}>
+      <Line/>
+
+     <h1 ref={ref} className={`title ${actionClass}`}>
+       SKILLS * SKILLS * SKILLS * SKILLS * SKILLS * SKILLS * SKILLS * SKILLS * SKILLS * SKILLS * SKILLS *
+      </h1>
+      <Line/>
+      <Techs/>
+  
+   
+    </div>
     </>
   )
 }
-
 export { Section3 }
+

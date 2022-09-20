@@ -6,17 +6,44 @@ import { Scene } from './Scene'
 import { Canvas } from '@react-three/fiber';
 import Sidebar from './Sidebar/Sidebar';
 import Environ from './Components/Environ';
+import { useInView } from "react-intersection-observer";
+
+
+
+
+
+
 
 
 
 
 
 function App() {
+
+
+  const [ref, inView] = useInView({
+    threshold: 0,
+    triggerOnce: true
+  });
+
+  let actionClass = null;
+
+  if (inView) {
+    actionClass = "inview";
+  } else {
+    actionClass = "outview";
+  }
+
+
+
+
+
   
   return (
     <>
     <div className='App' >
-      <div className='bg'></div>
+
+      <div ref={ref} className={`bg ${actionClass}`}></div>
     <Loading/>       
     <BrowserRouter>
     <Canvas>

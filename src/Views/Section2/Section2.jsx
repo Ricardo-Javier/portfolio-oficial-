@@ -3,6 +3,7 @@ import './Section2.scss';
 import { useInView } from "react-intersection-observer";
 import {Line} from '../../Components/Line';
 import Button from 'react-bootstrap/Button';
+import resume from '../../assets/Resume-Ricardo-Javier.pdf'
 
 
 
@@ -39,7 +40,7 @@ function Section2 () {
      
       <div ref={ref} className={`about ab-seven ${actionClass}`}> 
       
-      More about me? <Button className='mainbutton resumebutton' href='https://github.com/Ricardo-Javier' > 
+      More about me? <Button className='mainbutton resumebutton' href={resume} download="Resume Ricardo" > 
         Download my Resume
       </Button>
 

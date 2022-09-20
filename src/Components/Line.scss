@@ -1,5 +1,5 @@
 .line{
-  transition: all 10000ms ease-in-out;
+  transition: all 2000ms ease-in-out;
   animation-delay: 2000ms;
   animation-iteration-count: infinite;
   position: relative;
@@ -12,7 +12,7 @@
 }
 
 .line.outview {
-  transform: scale(1)
+  opacity: 0;
 
   
  

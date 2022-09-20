@@ -1,15 +1,16 @@
 import React from 'react'
 import './Section6.scss';
-import {ContactForm} from './ContactForm';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {faWhatsapp, faLinkedin} from '@fortawesome/free-brands-svg-icons';
-import { faPhone } from '@fortawesome/free-solid-svg-icons';
 import { useInView } from "react-intersection-observer";
-import { Line } from '../../Components/Line';
+import Card from 'react-bootstrap/Card';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {faWhatsapp, faLinkedin  } from '@fortawesome/free-brands-svg-icons';
+import { faAnglesUp, faPhone } from '@fortawesome/free-solid-svg-icons';
+
 
 
 function Section6() {
-    const [ref, inView] = useInView({
+
+  const [ref, inView] = useInView({
     threshold: 0,
     triggerOnce: true
   });
@@ -23,17 +24,20 @@ function Section6() {
   }
 
 
-
   return (
     <>
-      <div ref={ref} className={`section6 ${actionClass}`}> 
-      <Line/>
-      <h1 ref={ref} className={`title ${actionClass}`}>CONTACT * CONTACT * CONTACT * CONTACT * CONTACT * CONTACT * CONTACT * </h1> 
-      <Line/>
-        <p ref={ref} className={`form-text text-anim-cont ${actionClass}`}>If you are looking to add a junior/trainee level developer to your team, reach me out! 
-        <br/>I'm open to learn everything with passion and hard-working.       
-          </p>
-          <ul ref={ref} className={`icon-anim-cont ${actionClass}`}>
+
+      <div ref={ref} className={`section6 ${actionClass}`}>
+    
+      <Card className="text-center">
+     
+      <div ref={ref} className={`title title-footer ${actionClass}`}>RICARDO-JAVIER.COM * RICARDO-JAVIER.COM * RICARDO-JAVIER.COM * RICARDO-JAVIER.COM * RICARDO-JAVIER.COM * RICARDO-JAVIER.COM *
+      </div>
+    
+      <Card.Body>
+        <Card.Title>
+     
+        <ul>
        <li>
          <a href="https://wa.me/13052162077" rel="noreferrer" target="_blank">
            <FontAwesomeIcon icon={faWhatsapp}/>
@@ -45,15 +49,35 @@ function Section6() {
           </a>
         </li>
         <li>
-        <a target ='_blank' rel='noreferrer' href ='https://www.linkedin.com/rsalinaszambrano'>
+        <a target ='_blank' rel='noreferrer' href ='https://www.linkedin.com/in/rsalinaszambrano/'>
             <FontAwesomeIcon icon={faLinkedin}/>
           </a>
         </li>
-     </ul>     
-          <ContactForm/>          
-           
-   
+     </ul> 
+          
+        </Card.Title>
+        <Card.Text> 
+          <br/>Site optimazed for Chrome, desktop and mobile.
+          <br/>
+          <br/>
+       
+          Resources that I used on this Web:
+          <br/>
+          <br/>
+     
+         <a target ='_blank' rel="noreferrer" href="https://skfb.ly/6TTzK"> * 3D MODEL</a>
+         <br/>
+         <br/>      
+        </Card.Text>
+        <a className='arrowup' href="#1">
+          <FontAwesomeIcon icon ={faAnglesUp}/>
+        </a>
+        <Card.Footer className="text-muted">Miami Beach, FL, 33139.</Card.Footer>
+      </Card.Body>
+      
+    </Card>
       </div>
+      
    
     </>
   )

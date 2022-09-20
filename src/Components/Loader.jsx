@@ -42,9 +42,10 @@ const styles = {
     textAlign:'center',  
     fontVariantNumeric: 'tabular-nums',
     marginTop: '2em',
+    left:'-5vh',
     color: '#49a09d',
     fontSize: '2.5vh',
-    fontFamily: 'EunomiaRegular',
+    fontFamily: 'Orbitron',
     whiteSpace: 'nowrap',
   },
 }
