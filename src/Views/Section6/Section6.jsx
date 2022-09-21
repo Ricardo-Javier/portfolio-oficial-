@@ -31,7 +31,7 @@ function Section6() {
     
       <Card className="text-center">
      
-      <div ref={ref} className={`title title-footer ${actionClass}`}>RICARDO-JAVIER.COM * RICARDO-JAVIER.COM * RICARDO-JAVIER.COM * RICARDO-JAVIER.COM * RICARDO-JAVIER.COM * RICARDO-JAVIER.COM *
+      <div ref={ref} className={`title title-footer ${actionClass}`}> *  *  *  *  *  *  *  *  *  *  *  *
       </div>
     
       <Card.Body>
@@ -57,7 +57,6 @@ function Section6() {
           
         </Card.Title>
         <Card.Text> 
-          <br/>Site optimazed for Chrome, desktop and mobile.
           <br/>
           <br/>
        
@@ -72,7 +71,9 @@ function Section6() {
         <a className='arrowup' href="#1">
           <FontAwesomeIcon icon ={faAnglesUp}/>
         </a>
-        <Card.Footer className="text-muted">Miami Beach, FL, 33139.</Card.Footer>
+        <Card.Footer className="text-muted">
+      
+        ricardo-javier.netlify.app</Card.Footer>
       </Card.Body>
       
     </Card>

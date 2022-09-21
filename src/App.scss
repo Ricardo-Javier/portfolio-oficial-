@@ -63,19 +63,20 @@ html {
 
 
 .title{
-font-size: 4rem;
+font-size: 3rem;
 font-family: 'Orbitron', sans-serif;
 font-weight:900;
 text-shadow:  5px 5px 5px rgba(54, 47, 47, 0.353);
 position: relative;
 white-space: nowrap;
-transition: all 20000ms ease;
+transition: all 1500ms ease;
 transition-delay: 0ms;
 opacity: 0.90;
+letter-spacing: 1.5vh;
 
 }
 .title.outview {
-  transform: translateX(-1000px);
+  opacity:0;
   
 }
 

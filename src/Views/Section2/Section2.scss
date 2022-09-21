@@ -27,7 +27,7 @@ width: 100%;
 
 .ab-one{
 transition: all 500ms ease-in-out;
-transition-delay: 0ms;
+transition-delay: 100ms;
 ;}
 
 .ab-one.outview {
@@ -37,7 +37,7 @@ transition-delay: 0ms;
 
 .ab-two{
   transition: all 500ms ease-in-out;
-  transition-delay: 200ms;}
+  transition-delay: 300ms;}
   
   .ab-two.outview {
     
@@ -46,7 +46,7 @@ transition-delay: 0ms;
 
   .ab-three{
     transition: all 500ms ease-in-out;
-    transition-delay: 400ms;
+    transition-delay: 500ms;
     display: flex;
     flex-direction: row;
   
@@ -59,7 +59,7 @@ transition-delay: 0ms;
 
     .ab-four{
       transition: all 500ms ease-in-out;
-      transition-delay: 600ms;}
+      transition-delay: 700ms;}
       
       .ab-four.outview {
        
@@ -68,7 +68,7 @@ transition-delay: 0ms;
 
       .ab-five{
         transition: all 500ms ease-in-out;
-        transition-delay: 800ms;}
+        transition-delay: 900ms;}
         
         .ab-five.outview {
          
@@ -77,7 +77,7 @@ transition-delay: 0ms;
 
         .ab-six{
           transition: all 500ms ease-in-out;
-          transition-delay: 1000ms;}
+          transition-delay: 1100ms;}
           
           .ab-six.outview {
         
@@ -87,7 +87,7 @@ transition-delay: 0ms;
 
           .ab-seven{
             transition: all 500ms ease-in-out;
-            transition-delay: 1200ms;
+            transition-delay: 1300ms;
        margin-top: 10vh;
             display:flex;
             flex-direction: column;
