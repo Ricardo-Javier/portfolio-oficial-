@@ -29,35 +29,35 @@ html {
   height: 200vh;
   background: transparent url('http://assets.iceable.com/img/noise-transparent.png') repeat 0 0;
   background-repeat: repeat;
-  animation: bg-animation .2s infinite;
+  // animation: bg-animation .2s infinite;
   opacity: 1;
   visibility: visible;
   z-index: 999999999;
   pointer-events: none;
 }
 
-.bg{
-  transition: all 500ms ease-in-out;
-transition-delay: 4000ms;
-}
+// .bg{
+//   transition: all 500ms ease-in-out;
+// transition-delay: 4000ms;
+// }
 
-.bg.outview { 
-  opacity: 0;
-}
+// .bg.outview { 
+//   opacity: 0;
+// }
 
-@keyframes bg-animation {
-    0% { transform: translate(0,0) }
-    10% { transform: translate(-5%,-5%) }
-    20% { transform: translate(-10%,5%) }
-    30% { transform: translate(5%,-10%) }
-    40% { transform: translate(-5%,15%) }
-    50% { transform: translate(-10%,5%) }
-    60% { transform: translate(15%,0) }
-    70% { transform: translate(0,10%) }
-    80% { transform: translate(-15%,0) }
-    90% { transform: translate(10%,5%) }
-    100% { transform: translate(5%,0) }
-}
+// @keyframes bg-animation {
+//     0% { transform: translate(0,0) }
+//     10% { transform: translate(-5%,-5%) }
+//     20% { transform: translate(-10%,5%) }
+//     30% { transform: translate(5%,-10%) }
+//     40% { transform: translate(-5%,15%) }
+//     50% { transform: translate(-10%,5%) }
+//     60% { transform: translate(15%,0) }
+//     70% { transform: translate(0,10%) }
+//     80% { transform: translate(-15%,0) }
+//     90% { transform: translate(10%,5%) }
+//     100% { transform: translate(5%,0) }
+// }
 
 
 

@@ -26,7 +26,7 @@ function Section2 () {
     
   return (
     <>
-      <div ref={ref} className={`section2 ${actionClass}`}>
+      <section ref={ref} className={`section2 ${actionClass}`}>
         <Line/>
       <h1 ref={ref} className={`title ${actionClass}`}>ABOUT ME * ABOUT ME * ABOUT ME * ABOUT ME * ABOUT ME * ABOUT ME * ABOUT ME * ABOUT ME * ABOUT ME *</h1>
       <Line/>
@@ -48,7 +48,7 @@ function Section2 () {
    
     
       </div>
-      </div>
+      </section>
     </>
   )
 }
