@@ -46,12 +46,14 @@ function App() {
       <div ref={ref} className={`bg ${actionClass}`}></div>
     <Loading/>       
     <BrowserRouter>
+    <div className='page'>
     <Canvas>
     <Environ/>    
     <Suspense fallback={null}>
     <Scene />    
     </Suspense>
     </Canvas>
+    </div>
     <Sidebar/>  
   
     

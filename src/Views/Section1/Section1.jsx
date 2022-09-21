@@ -32,7 +32,7 @@ function Section1 () {
       </h1>
    
       <h1 ref={ref} className={`ric ${actionClass}`}>
-        * I'M RICARDO * 
+         I'M RICARDO 
       </h1>
       <h1  className={`beg ${actionClass}`}>
         A BEGINNER  FRONT-END DEVELOPER     

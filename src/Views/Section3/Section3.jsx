@@ -20,7 +20,7 @@ function Section3() {
   }
   return (
     <>
-    <div ref={ref} className={`section3 box ${actionClass}`}>
+    <div ref={ref} className={`section3 ${actionClass}`}>
       <Line/>
 
      <h1 ref={ref} className={`title ${actionClass}`}>

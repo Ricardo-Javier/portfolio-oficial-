@@ -77,7 +77,7 @@ margin-bottom: 10vh;
 
 .project-anim1{
   transition: all 500ms ease-in-out;
-  transition-delay: 100ms;
+  transition-delay: 0ms;
 }
 
 .project-anim1.outview {          
@@ -86,7 +86,7 @@ margin-bottom: 10vh;
 
 .project-anim2{
   transition: all 500ms ease-in-out;
-  transition-delay:300ms;
+  transition-delay:200ms;
 }
 
 .project-anim2.outview {          
@@ -95,7 +95,7 @@ margin-bottom: 10vh;
 
 .project-anim3{
   transition: all 500ms ease-in-out;
-  transition-delay: 600ms;
+  transition-delay: 400ms;
 }
 
 .project-anim3.outview {          

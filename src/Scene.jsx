@@ -12,15 +12,11 @@ import { Layout } from './Views/Layout/Layout'
 function Scene() {  
 
   return (
-    <ScrollControls damping={7} pages={8.4}>      
-      <Glitch rotation={[0.1,-20.9,-0.4]}  position={[6,-25,-6]}/> 
-
+    <ScrollControls damping={7} pages={11}>      
+      <Glitch rotation={[0.1,-20.9,-0.4]}  position={[6,-25,-6]}/>
       <Lights/>
       <Particles />    
-      <Scroll>
-      </Scroll>     
-      <Scroll html style={{ width: '100%' }}>
-     
+      <Scroll html style={{ width: '100%' }}>   
       <Layout />
       </Scroll>
     </ScrollControls>
