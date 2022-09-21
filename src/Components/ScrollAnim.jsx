@@ -6,6 +6,7 @@ export default function ScrollAnim() {
   React.useEffect(() => {
     lottie.loadAnimation({
       container: document.querySelector("#anim"),
+      renderer:'canvas',
       animationData: anim,
       rendererSettings: {
         progressiveLoad:true,
