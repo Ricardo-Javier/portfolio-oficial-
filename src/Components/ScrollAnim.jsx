@@ -17,7 +17,7 @@ export default function ScrollAnim() {
 
   return (
     <div>      
-      <div id="anim" style={{ height: 150 }} />
+      <div id="anim" style={{ height: 250 }} />
     </div>
   );
 }

@@ -48,7 +48,7 @@ function App() {
       <div ref={ref} className={`bg ${actionClass}`}></div>
     <Loading/>       
     <BrowserRouter>
-    <Canvas dpr={[1, 1.5]}>    
+    <Canvas frameloop="demand" dpr={[1, 1.5]}>    
     <Environ/>    
     <Suspense fallback={null}>
     <Scene />    
