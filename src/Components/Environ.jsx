@@ -1,7 +1,7 @@
 import React from 'react'
 import * as THREE from 'three'
 import { Environment} from '@react-three/drei'
-import { LayerMaterial,  Depth} from 'lamina'
+import { LayerMaterial,  Depth, Noise} from 'lamina'
 
 
 

@@ -3,20 +3,11 @@
 text-align:center;
 width: 100vw;
 height: 100vh;
-position: absolute;
-top: 67vh;
 transition: all 1000ms ease-in-out;
 transition-delay: 500ms;
-display: flex;
-flex-direction:column;
 
 }
 
-@media screen and (min-width: 600px) {
-  .section1{
-    top:70vh
-  }
-}
 
 .hello {
 transition: all 1400ms ease-in-out;
@@ -30,11 +21,7 @@ position: relative;
 top:-1vh;
 }
 
-@media screen and (min-width: 600px) {
-  .hello{
-    font-size: 1.8rem;
-  }
-}
+
 
 .hello.outview {
   opacity: 0;
@@ -44,16 +31,11 @@ top:-1vh;
 transition: all 1400ms ease-in-out;
 transition-delay: 2500ms;
 margin: 0;
-font-size: 2.5rem;
-letter-spacing: 1.2vh;
+font-size: 6vh;
+
 
 }
 
-@media screen and (min-width: 600px) {
-  .ric{
-    font-size: 3.7rem;
-  }
-}
 
 .ric.outview {
   opacity: 0;
@@ -70,11 +52,7 @@ letter-spacing: 1.2vh;
   margin-top: 1vh;
 
   }
-  @media screen and (min-width: 600px) {
-    .beg{
-      font-size: 1.8rem;
-    }
-  }
+
 
 
   .beg.outview {
@@ -94,9 +72,10 @@ letter-spacing: 1.2vh;
 
 
 .scroll-anim {
-  position: relative;
-  top: -20vh;
-  left: -1vw;
+  position: absolute;
+  top: -65vh;
+  width: 100vw;
+
   transition: all 2500ms ease-in-out;
   transition-delay: 5000ms;
   opacity: 0.3;

@@ -26,7 +26,7 @@ function Section1 () {
        
   return (
     <>
-      <section className='section1' >
+      <div className='section1'  >
       <h1 className={`hello ${actionClass}`} >
         HELLO
       </h1>
@@ -37,7 +37,7 @@ function Section1 () {
       <h1  className={`beg ${actionClass}`}>
         A BEGINNER  FRONT-END DEVELOPER     
       </h1> 
-      </section>
+      </div>
       <div ref={ref} className={`scroll-anim ${actionClass}`}>
         <ScrollAnim/>     
       </div>

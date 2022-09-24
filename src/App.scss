@@ -1,6 +1,7 @@
 html {
   font-family: 'Orbitron', sans-serif;
   color: white;
+  height: 100vh;
 }
 
 .App {
@@ -14,22 +15,19 @@ html {
   
 }
 
-.page{
-  width: 100vw;
-  height: 100vh;
-}
+
 
 .bg {
   position: fixed;
-  top: -50%;
-  left: -50%;
-  right: -50%;
-  bottom: -50%;
-  width: 200%;
-  height: 200vh;
-  background: transparent url('http://assets.iceable.com/img/noise-transparent.png') repeat 0 0;
-  background-repeat: repeat;
-  // animation: bg-animation .2s infinite;
+  top: -50vh;
+  left: -50vw;
+  right: -50vw;
+  bottom: -50vh;
+  width: 300vw;
+  height: 300vh;
+  background: rgba(0, 0, 0, 0.138) url('http://assets.iceable.com/img/noise-transparent.png') repeat 0 0;
+  background-repeat:repeat;
+  animation: bg-animation .2s infinite;
   opacity: 1;
   visibility: visible;
   z-index: 999999999;
@@ -45,25 +43,25 @@ html {
 //   opacity: 0;
 // }
 
-// @keyframes bg-animation {
-//     0% { transform: translate(0,0) }
-//     10% { transform: translate(-5%,-5%) }
-//     20% { transform: translate(-10%,5%) }
-//     30% { transform: translate(5%,-10%) }
-//     40% { transform: translate(-5%,15%) }
-//     50% { transform: translate(-10%,5%) }
-//     60% { transform: translate(15%,0) }
-//     70% { transform: translate(0,10%) }
-//     80% { transform: translate(-15%,0) }
-//     90% { transform: translate(10%,5%) }
-//     100% { transform: translate(5%,0) }
-// }
+@keyframes bg-animation {
+    0% { transform: translate(0,0) }
+    10% { transform: translate(-5vw,-5vw) }
+    20% { transform: translate(-10vw,5vw) }
+    30% { transform: translate(5vw,-10vw) }
+    40% { transform: translate(-5vw,15vw) }
+    50% { transform: translate(-10vw,5vw) }
+    60% { transform: translate(15vw,0) }
+    70% { transform: translate(0,10vw) }
+    80% { transform: translate(-15vw,0) }
+    90% { transform: translate(10vw,5vw) }
+    100% { transform: translate(5vw,0) }
+}
 
 
 
 
 .title{
-font-size: 3rem;
+font-size: 6vh;
 font-family: 'Orbitron', sans-serif;
 font-weight:900;
 text-shadow:  5px 5px 5px rgba(54, 47, 47, 0.353);
@@ -113,6 +111,7 @@ letter-spacing: 1.5vh;
 
 
 canvas {
+
 	-webkit-animation: canvas 3s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 	        animation: canvas 3s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
@@ -147,4 +146,12 @@ svg{
 
 svg:hover{
   transform: scale(1.9);
+}
+
+
+.top-page{
+  width: 3px;
+  height: 3px;
+  position: absolute;
+  top: -120vh;
 }

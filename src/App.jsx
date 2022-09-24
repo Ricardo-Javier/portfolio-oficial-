@@ -7,6 +7,7 @@ import { Canvas } from '@react-three/fiber';
 import Sidebar from './Sidebar/Sidebar';
 import Environ from './Components/Environ';
 import { useInView } from "react-intersection-observer";
+import { Html } from '@react-three/drei';
 
 
 
@@ -42,22 +43,21 @@ function App() {
   return (
     <>
     <div className='App' >
+      
 
       <div ref={ref} className={`bg ${actionClass}`}></div>
     <Loading/>       
     <BrowserRouter>
-    <div className='page'>
-    <Canvas>
+    <Canvas dpr={[1, 1.5]}>    
     <Environ/>    
     <Suspense fallback={null}>
     <Scene />    
-    </Suspense>
+    </Suspense> 
     </Canvas>
-    </div>
     <Sidebar/>  
   
     
-    {/* <Overlay/> */}
+
   
     <Routes>    
     {/* <Route path="/" element={<Main/>}/>

@@ -3,8 +3,7 @@ text-align:center;
 width: 100vw;
 display: flex;
 flex-direction: column;
-position: absolute;
-top:280rem;
+
    
 }
 
@@ -25,13 +24,20 @@ top:280rem;
  height: 170px;
  text-align:center;
  margin: 7vh;
+
  overflow: hidden;
 z-index: 9;
 box-shadow: 10px 10px 10px rgba(54, 47, 47, 0.353);
 border: solid 0.5px #411e58;
+transition: all 500ms ease-in-out;
+  transition-delay: 0ms;
 
 background-color: #49a09dcb;
 
+}
+
+.project.outview {          
+  opacity: 0;
 }
 
 

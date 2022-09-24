@@ -14,11 +14,8 @@ import './Layout.scss';
 function Layout() {
   return (
     <>
-    <div className='scrolltotop' id='1'></div>
-   
-  
-    <div className='layout'>
-  
+    <div className='scrolltotop' id='1'></div>  
+    <div className='container layout'>  
      <Section1/>
      <Section2/>
      <Section3/>     

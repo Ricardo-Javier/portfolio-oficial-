@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faWhatsapp, faLinkedin} from '@fortawesome/free-brands-svg-icons';
 import { faPhone } from '@fortawesome/free-solid-svg-icons';
 import { useInView } from "react-intersection-observer";
-import { Line } from '../../Components/Line';
+
 
 
 function Section5() {
@@ -27,9 +27,9 @@ function Section5() {
   return (
     <>
       <div ref={ref} className={`section5 ${actionClass}`}> 
-      <Line/>
+   
       <h1 ref={ref} className={`title ${actionClass}`}>CONTACT </h1> 
-      <Line/>
+   
         <p ref={ref} className={`form-text text-anim-cont ${actionClass}`}>If you are looking to add a junior/trainee level developer to your team, reach me out! 
         <br/>I'm open to learn everything with passion and hard-working.       
           </p>

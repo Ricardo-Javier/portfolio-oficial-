@@ -1,7 +1,7 @@
 import React from 'react'
 import './Section3.scss';
 import { useInView } from "react-intersection-observer";
-import { Line } from '../../Components/Line';
+
 import Techs from '../../Components/Techs';
 
 
@@ -21,12 +21,12 @@ function Section3() {
   return (
     <>
     <div ref={ref} className={`section3 ${actionClass}`}>
-      <Line/>
+ 
 
      <h1 ref={ref} className={`title ${actionClass}`}>
        SKILLS 
       </h1>
-      <Line/>
+
       <Techs/>
   
    

@@ -3,7 +3,7 @@ import './Section4.scss';
 import { useInView } from "react-intersection-observer";
 import '../../Components/ProjectModal.scss'
 import Modals from '../../Components/ProjectModal';
-import { Line } from '../../Components/Line';
+
 
 
 
@@ -28,9 +28,9 @@ function Section4() {
   return (
     <>
     <div ref={ref} className={`section4 ${actionClass}`}>
-    <Line/>
+
     <h1 ref={ref} className={`title ${actionClass}`}>PROJECTS</h1>
-    <Line/>
+
       <Modals/>
     </div> 
     </>

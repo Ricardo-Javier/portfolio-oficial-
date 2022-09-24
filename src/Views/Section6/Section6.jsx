@@ -68,7 +68,7 @@ function Section6() {
          <br/>
          <br/>      
         </Card.Text>
-        <a className='arrowup' href="#1">
+        <a className='arrowup' href="#top">
           <FontAwesomeIcon icon ={faAnglesUp}/>
         </a>
         <Card.Footer className="text-muted">
