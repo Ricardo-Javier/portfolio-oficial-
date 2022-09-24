@@ -7,7 +7,7 @@ import { Canvas } from '@react-three/fiber';
 import Sidebar from './Sidebar/Sidebar';
 import Environ from './Components/Environ';
 import { useInView } from "react-intersection-observer";
-import { Html } from '@react-three/drei';
+
 
 
 

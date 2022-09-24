@@ -3,7 +3,7 @@ import { Scroll, ScrollControls } from '@react-three/drei'
 import Glitch from './Components/Glitch'
 import { Lights } from './Components/Lights'
 import { Particles } from './Components/Particles'
-import { Layout } from './Views/Layout/Layout'
+
 import { Html } from './Components/Html'
 
 
