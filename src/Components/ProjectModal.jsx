@@ -7,29 +7,13 @@ import '../Views/Section4/Section4.jsx'
 import video1 from '../assets/project1.mp4'
 import video2 from '../assets/project2.mp4'
 import video3 from '../assets/project3.mp4'
-import { useInView } from "react-intersection-observer";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faGithub  } from '@fortawesome/free-brands-svg-icons';
 import { faLink } from '@fortawesome/free-solid-svg-icons';
 
 
 const Modals = () => {
-  const [ref, inView] = useInView({
-    threshold: 0,
-    triggerOnce: true
-  });
-
-  let actionClass = null;
-
-  if (inView) {
-    actionClass = "inview";
-  } else {
-    actionClass = "outview";
-  }
-
-
-
-
+ 
  const modalInfo = [
     {
       title: "Restaurant App",
@@ -64,7 +48,7 @@ const Modals = () => {
 
     return (
       <>
-      <div ref={ref} className={`project ${card.classname} ${actionClass}`}>
+      <div className={`project ${card.classname}`}>
         <h1 className='titmodal'>{card.title}</h1>
       <Button className='mainbutton infobutton' onClick={handleShow}>
         + Info

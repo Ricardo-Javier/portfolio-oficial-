@@ -1,16 +1,16 @@
 import { Point, Points } from '@react-three/drei'
-import { useThree } from '@react-three/fiber'
+import { useThree} from '@react-three/fiber'
 import React, { useRef } from 'react'
 
 const particleColors = ['white']
 
-function Particles({ size = 1000 }) {
+function Particles({ size = 1500 }) {
   const { width, height } = useThree((state) => state.viewport)
   const ref = useRef()
 
 
   // useFrame(() => {
-  //   ref.current.rotation.z  += -0.0004
+  //   ref.current.rotation.z  += -0.0002
   // })
 
 

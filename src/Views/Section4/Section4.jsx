@@ -29,7 +29,7 @@ function Section4() {
     <>
     <div ref={ref} className={`section4 ${actionClass}`}>
 
-    <h1 ref={ref} className={`title ${actionClass}`}>PROJECTS</h1>
+    <h1 className='title'>PROJECTS</h1>
 
       <Modals/>
     </div> 

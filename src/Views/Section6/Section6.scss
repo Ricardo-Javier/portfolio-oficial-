@@ -4,11 +4,10 @@
 
 
 }
+  
 
-    
 
-
-.section7.outview {
+.section6.outview {
   background-color: transparent; 
 }
 
@@ -40,16 +39,15 @@ a {
 
 .text-center{
   position: relative;
-  top: -20vh;
+  top: 20vh;
   
 }
 
-// @media screen and (min-width: 600px) {
-//   .text-center{
-//     top:20vh
-//   }
-// }
-
+.lines{
+  position: absolute;
+  top: 20vh;
+  margin-bottom: -40vh;
+}
 
 
 
@@ -59,7 +57,7 @@ a {
 }
 
 .card-body{
-  padding-top: 30vh;
+  padding-top: 50vh;
   background-image: linear-gradient( #01010100, #000000);
   height: 100vh;
 

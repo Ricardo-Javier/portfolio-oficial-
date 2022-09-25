@@ -23,7 +23,7 @@ function Section3() {
     <div ref={ref} className={`section3 ${actionClass}`}>
  
 
-     <h1 ref={ref} className={`title ${actionClass}`}>
+     <h1 className='title'>
        SKILLS 
       </h1>
 

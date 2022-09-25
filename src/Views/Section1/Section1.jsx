@@ -29,7 +29,7 @@ function Section1 () {
       <div className='section1'  >
       <h1 className={`hello ${actionClass}`} >
         HELLO
-      </h1>
+      </h1>      
    
       <h1 ref={ref} className={`ric ${actionClass}`}>
          I'M RICARDO 

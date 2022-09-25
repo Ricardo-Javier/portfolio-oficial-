@@ -1,11 +1,11 @@
 import React from "react";
 import lottie from "lottie-web";
-import anim from "../assets/arrowdown.json";
+import anim from "../assets/lines.json";
 
-export default function ScrollAnim() {
+export default function LinesAnim() {
   React.useEffect(() => {
     lottie.loadAnimation({
-      container: document.querySelector("#anim"),
+      container: document.querySelector("#linesanim"),
       renderer:'canvas',
       animationData: anim,
       rendererSettings: {
@@ -17,7 +17,7 @@ export default function ScrollAnim() {
 
   return (
     <div>      
-      <div id="anim" style={{ height: 100 }} />
+      <div id="linesanim" style={{width:'200vw' }} />
     </div>
   );
 }

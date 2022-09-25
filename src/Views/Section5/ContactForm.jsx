@@ -1,23 +1,11 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import './Section5.scss';
-import { useInView } from "react-intersection-observer";
+
 
 
 export const ContactForm = () => {
 
-  const [ref, inView] = useInView({
-    threshold: 0,
-    triggerOnce: true
-  });
-
-  let actionClass = null;
-
-  if (inView) {
-    actionClass = "inview";
-  } else {
-    actionClass = "outview";
-  }
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -33,7 +21,7 @@ export const ContactForm = () => {
 
   return (
     <>
-   <div ref={ref} className={`form-anim-cont ${actionClass}`}>
+   <div className='form-anim-cont'>
     <form ref={form} onSubmit={sendEmail}>
       <label>Name</label>
       <input type="text" name="user_name" required />

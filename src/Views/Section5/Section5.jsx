@@ -28,12 +28,12 @@ function Section5() {
     <>
       <div ref={ref} className={`section5 ${actionClass}`}> 
    
-      <h1 ref={ref} className={`title ${actionClass}`}>CONTACT </h1> 
+      <h1 className='title'>CONTACT </h1> 
    
-        <p ref={ref} className={`form-text text-anim-cont ${actionClass}`}>If you are looking to add a junior/trainee level developer to your team, reach me out! 
+        <p className='form-text text-anim-cont'>If you are looking to add a junior/trainee level developer to your team, reach me out! 
         <br/>I'm open to learn everything with passion and hard-working.       
           </p>
-          <ul ref={ref} className={`icon-anim-cont ${actionClass}`}>
+          <ul className='icon-anim-cont'>
        <li>
          <a href="https://wa.me/13052162077" rel="noreferrer" target="_blank">
            <FontAwesomeIcon icon={faWhatsapp}/>

@@ -5,6 +5,7 @@ import Card from 'react-bootstrap/Card';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faWhatsapp, faLinkedin  } from '@fortawesome/free-brands-svg-icons';
 import { faAnglesUp, faPhone } from '@fortawesome/free-solid-svg-icons';
+import LinesAnim from '../../Components/LinesAnim';
 
 
 
@@ -28,10 +29,14 @@ function Section6() {
     <>
 
       <div ref={ref} className={`section6 ${actionClass}`}>
-    
+      <div className='lines'> 
+      <LinesAnim/>
+      </div>
       <Card className="text-center">
      
-      <div ref={ref} className={`title title-footer ${actionClass}`}> *  *  *  *  *  *  *  *  *  *  *  *
+     
+      <div className='title-footer'> 
+     
       </div>
     
       <Card.Body>
@@ -65,6 +70,8 @@ function Section6() {
           <br/>
      
          <a target ='_blank' rel="noreferrer" href="https://skfb.ly/6TTzK"> * 3D MODEL</a>
+         <a target ='_blank' rel="noreferrer" href="https://lottiefiles.com/78303-black-arrow-down"> * ARROW ANIMATION</a>
+         <a target ='_blank' rel="noreferrer" href="https://lottiefiles.com/87661-lines"> * WAVES ANIMATION</a>
          <br/>
          <br/>      
         </Card.Text>
@@ -73,7 +80,7 @@ function Section6() {
         </a>
         <Card.Footer className="text-muted">
       
-        ricardo-javier.netlify.app</Card.Footer>
+        www.ricardo-javier.xyz</Card.Footer>
       </Card.Body>
       
     </Card>

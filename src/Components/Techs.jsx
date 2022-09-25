@@ -4,27 +4,13 @@ import '../Views/Section4/Section4.jsx'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faHtml5, faSass, faJs, faReact} from '@fortawesome/free-brands-svg-icons';
 import './Techs.scss'
-import { useInView } from "react-intersection-observer";
 import { ReactComponent as IconThree } from '../assets/Threejs-logo.svg';
 import { ReactComponent as IconLottie } from '../assets/lottie-files.svg';
 
 
 const Techs = () => {
 
-  const [ref, inView] = useInView({
-    threshold: 0,
-    triggerOnce: true
-  });
-
-  let actionClass = null;
-
-  if (inView) {
-    actionClass = "inview";
-  } else {
-    actionClass = "outview";
-  }
-
-
+  
 
  const techInfo = [
     {
@@ -71,9 +57,8 @@ const Techs = () => {
   const RenderTechs = (card, index) => {
     return (
       <>
-        <div ref={ref} className={`${card.classname} ${actionClass}`}>
-        <div className='tech' key={index} >
-          
+        <div className={card.className}>
+        <div className='tech' key={index} >          
           {card.icon}        
         <h1 className='tech-title'>
           {card.title}

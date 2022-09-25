@@ -23,64 +23,11 @@ margin-top: 10vh;
 }
 
 .icon{
-  width: 3rem;
+  width: 7vh;
 }
 
 
-.tech-anim1{
-  transition: all 500ms ease-in-out;
-  transition-delay: 0ms;
-}
 
-.tech-anim1.outview {          
-  opacity: 0;
-}
-
-.tech-anim2{
-  transition: all 500ms ease-in-out;
-  transition-delay:200ms;
-}
-
-.tech-anim2.outview {          
-  opacity: 0;
-}
-
-.tech-anim3{
-  transition: all 500ms ease-in-out;
-  transition-delay: 400ms;
-}
-
-.tech-anim3.outview {          
-  opacity: 0;
-}
-
-.tech-anim4{
-  transition: all 500ms ease-in-out;
-  transition-delay: 600ms;
-}
-
-.tech-anim4.outview {          
-  opacity: 0;
-}
-
-.tech-anim5{
-  transition: all 500ms ease-in-out;
-  transition-delay: 800ms;
-  font-size: 2vh;
-}
-
-.tech-anim5.outview {          
-  opacity: 0;
-}
-
-.tech-anim6{
-  transition: all 500ms ease-in-out;
-  transition-delay: 1000ms;
-}
-
-.tech-anim6.outview {          
-  opacity: 0;
-}
 
 
 .tech:hover{
