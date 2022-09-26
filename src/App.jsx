@@ -15,7 +15,8 @@ function App() {
   
   return (
     <>
-    <div className='App' >    
+    <div className='App' > 
+ 
     <Loading/>       
     <BrowserRouter>
     <Canvas frameloop="demand" dpr={[1, 1.5]}>    

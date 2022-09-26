@@ -1,6 +1,6 @@
 import React from "react";
 import lottie from "lottie-web";
-import anim from "../assets/arrowdown.json";
+import anim from "../assets/scroll.json";
 
 export default function ScrollAnim() {
   React.useEffect(() => {
@@ -17,7 +17,7 @@ export default function ScrollAnim() {
 
   return (
     <div>      
-      <div id="anim" style={{ height: 100 }} />
+      <div id="anim" style={{ height: 300 }} />
     </div>
   );
 }

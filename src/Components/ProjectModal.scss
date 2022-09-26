@@ -10,17 +10,21 @@
 }
 
 .modal-content{
-  position: absolute;
-  bottom: 8rem;
+  padding: 2px;
+  justify-content: space-around; 
+  position: absolute; 
   display: flex;
-  background-color: #49a09d;
+  background: #49a09d4d;
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 20px );
+-webkit-backdrop-filter: blur( 20px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
   flex-direction: column;
   align-items: center;
-  width: 70vw;
-  height: 70vh;
- padding: 10px 30px 30px 30px;
- justify-content: space-evenly;
- border: solid 0.5px #411e58;
+  width: 90vw;
+  height: 90vh;
+
  
 }
 
@@ -35,23 +39,37 @@
 
 .closebutton{
   
-  margin-bottom: 20vh;
+  margin-bottom: 15vh;
  
 }
 
 
 video{
-  height: 170px;
-  width: 100%;
-  margin-top: 5vh;
 
+  width: 35vh;
+  margin-top: 5vh;
+  background: #411e58a8;
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 20px );
+  -webkit-backdrop-filter: blur( 20px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+}
+[poster]{
+ 
+
+    height:20vh;
+ 
+   
 }
 
 .modaltitle{
   position: relative;
   top: 15vh;
-  font-size: 1.4rem;
+  font-size: 2rem;
   margin-bottom: 10vh;
+  margin-top: -10vh;
 
 }
 
@@ -67,9 +85,7 @@ svg{
 }
 
 
-.infobutton{
-margin-bottom: 10vh;
-}
+
 
 .moreprojbutton{
   width: 130px;

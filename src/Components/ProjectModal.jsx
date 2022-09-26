@@ -17,7 +17,7 @@ const Modals = () => {
  const modalInfo = [
     {
       title: "Restaurant App",
-      description: "Web app made for restaurants that allow customers take orders directly from the table, including payment, sign in and login options.",
+      description: "Web app made for restaurants that allow customers take orders directly from the table, including payment options, sign in and login options.",
       video: video1,
       classname:'project-anim1',
       link:'https://thedoordrop.herokuapp.com/',
@@ -33,7 +33,7 @@ const Modals = () => {
     },
     {
       title: "Personal Website",
-      description: "Personal Portfolio using React, React-Three-Fiber, Drei, React-Bootstrap, LottieFiles, and a few libraries focused on animations. Html and 3D elements mixed without conflicts.",
+      description: "Personal Portfolio using React, React-Three-Fiber, Drei, React-Bootstrap, LottieFiles, and a few libraries focused on animations.",
       video: video3,
       classname:'project-anim3',
       link:'https://ricardo-javier.netlify.app',
@@ -66,7 +66,7 @@ const Modals = () => {
         </a>
         </div>
         
-        <video webkit-playsinline={true} playsInLine width="400" autoPlay>
+        <video webkit-playsinline={true} playsInline width="400" autoPlay poster='https://upload.wikimedia.org/wikipedia/commons/a/ad/YouTube_loading_symbol_3_%28transparent%29.gif'>
   <source src={card.video} type="video/mp4"/>
  
   Your browser does not support HTML video.
@@ -89,3 +89,5 @@ const Modals = () => {
 };
 
 export default Modals;
+
+

@@ -1,6 +1,6 @@
 html {
   font-family: 'Orbitron', sans-serif;
-  color: white;
+  color: #ffffffe8;
   height: 100vh;
 }
 
@@ -18,13 +18,9 @@ html {
 
 
 .bg {
-  position: fixed;
-  top: -50vh;
-  left: -50vw;
-  right: -50vw;
-  bottom: -50vh;
-  width: 300vw;
-  height: 300vh;
+  position: fixed;  
+  width: 100vw;
+  height: 100vh;
   background: rgba(0, 0, 0, 0.138) url('http://assets.iceable.com/img/noise-transparent.png') repeat 0 0;
   background-repeat:repeat;
   animation: bg-animation .2s infinite;
@@ -43,19 +39,19 @@ html {
 //   opacity: 0;
 // }
 
-@keyframes bg-animation {
-    0% { transform: translate(0,0) }
-    10% { transform: translate(-5vw,-5vw) }
-    20% { transform: translate(-10vw,5vw) }
-    30% { transform: translate(5vw,-10vw) }
-    40% { transform: translate(-5vw,15vw) }
-    50% { transform: translate(-10vw,5vw) }
-    60% { transform: translate(15vw,0) }
-    70% { transform: translate(0,10vw) }
-    80% { transform: translate(-15vw,0) }
-    90% { transform: translate(10vw,5vw) }
-    100% { transform: translate(5vw,0) }
-}
+// @keyframes bg-animation {
+//     0% { transform: translate(0,0) }
+//     10% { transform: translate(-5vw,-5vw) }
+//     20% { transform: translate(-10vw,5vw) }
+//     30% { transform: translate(5vw,-10vw) }
+//     40% { transform: translate(-5vw,15vw) }
+//     50% { transform: translate(-10vw,5vw) }
+//     60% { transform: translate(15vw,0) }
+//     70% { transform: translate(0,10vw) }
+//     80% { transform: translate(-15vw,0) }
+//     90% { transform: translate(10vw,5vw) }
+//     100% { transform: translate(5vw,0) }
+// }
 
 
 
@@ -64,7 +60,7 @@ html {
 font-size: 6vh;
 font-family: 'Orbitron', sans-serif;
 font-weight:900;
-text-shadow:  5px 5px 5px rgba(54, 47, 47, 0.353);
+text-shadow:  10px 10px 10px rgba(54, 47, 47, 0.353);
 position: relative;
 white-space: nowrap;
 transition: all 1500ms ease;
@@ -72,7 +68,10 @@ transition-delay: 0ms;
 opacity: 0.90;
 letter-spacing: 1.5vh;
 
+
 }
+
+
 .title.outview {
   opacity:0;
   
@@ -85,13 +84,18 @@ letter-spacing: 1.5vh;
   left: 0rem;
   z-index: 99;
   color: white;
-  background-color:  #411e58; 
-  border: none;
+  background: #411e58a8;
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 20px );
+  -webkit-backdrop-filter: blur( 20px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
   font-family: 'Orbitron', sans-serif;
   cursor: pointer;
-  font-size: 1.2rem;
-  padding: 5PX 10px 5px 10px;
-  width: 140px;
+  font-size: 2vh;
+  padding: 1vh 5vh 1vh 5vh;
+  white-space: nowrap;
+ 
  
 
 }
@@ -155,3 +159,6 @@ svg:hover{
   position: absolute;
   top: -120vh;
 }
+
+
+

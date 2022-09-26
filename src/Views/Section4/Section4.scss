@@ -20,18 +20,19 @@ flex-direction: column;
 
 .project{ 
 
- width: 30vh;
- height: 20vh;
+ width: 35vh;
+ height: 22vh;
  text-align:center;
  margin: 5vh;
  overflow: hidden;
 z-index: 9;
-box-shadow: 10px 10px 10px rgba(54, 47, 47, 0.353);
-border: solid 0.5px #411e58;
-transition: all 500ms ease-in-out;
-  transition-delay: 0ms;
+background: rgba( 73, 160, 157, 0.3 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 20px );
+-webkit-backdrop-filter: blur( 20px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
 
-background-color: #49a09dcb;
 
 }
 
@@ -41,7 +42,7 @@ background-color: #49a09dcb;
 
 
 .titmodal{
-  font-size: 2.5vh;
+  font-size: 3vh;
 	margin-top: 3vh;
   font-weight: 300;
   font-family: 'Orbitron', sans-serif;
