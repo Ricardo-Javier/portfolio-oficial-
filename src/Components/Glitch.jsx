@@ -1,5 +1,5 @@
 import React, { useRef, useLayoutEffect, useEffect } from 'react'
-import * as THREE from 'three'
+
 import { useGLTF, useAnimations, useScroll} from '@react-three/drei'
 import { useFrame } from '@react-three/fiber'
 
@@ -19,11 +19,10 @@ export default function Glitch({ ...props }) {
 
   
   useFrame((state, delta, clock) => {    
-    const action = actions['Take 001']
-    // The offset is between 0 and 1, you can apply it to your models any way you like
+    // const action = actions['Take 001']
     const offset = 1 - scroll.offset
-    action.time = THREE.MathUtils.damp(action.time, (action.getClip().duration *1) * offset, 90, delta)
-    state.camera.position.set(Math.sin(offset) * 26, Math.atan(offset * Math.PI * 15) * -3, Math.cos((offset * Math.PI) /1.7) * -17)
+    // action.time = THREE.MathUtils.damp(action.time, (action.getClip().duration *1) * offset, 90, delta)
+    state.camera.position.set(Math.sin(offset) * 26, Math.atan(offset * Math.PI * 60) * -5, Math.cos((offset * Math.PI) /1.7) * -17)
     state.camera.lookAt(5, 0, 0)
   })
   return (

@@ -5,7 +5,7 @@ import Card from 'react-bootstrap/Card';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faWhatsapp, faLinkedin  } from '@fortawesome/free-brands-svg-icons';
 import { faAnglesUp, faPhone } from '@fortawesome/free-solid-svg-icons';
-import LinesAnim from '../../Components/LinesAnim';
+// import LinesAnim from '../../Components/LinesAnim';
 
 
 
@@ -29,9 +29,9 @@ function Section6() {
     <>
 
       <div ref={ref} className={`section6 ${actionClass}`}>
-      <div className='lines'> 
+      {/* <div className='lines'> 
       <LinesAnim/>
-      </div>
+      </div> */}
       <Card className="text-center">
      
      
@@ -78,8 +78,7 @@ function Section6() {
         <a className='arrowup' href="#top">
           <FontAwesomeIcon icon ={faAnglesUp}/>
         </a>
-        <Card.Footer className="text-muted">
-      
+        <Card.Footer className="text-muted">      
         www.ricardo-javier.xyz</Card.Footer>
       </Card.Body>
       

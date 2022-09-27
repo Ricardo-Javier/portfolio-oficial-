@@ -53,16 +53,14 @@ video{
   backdrop-filter: blur( 20px );
   -webkit-backdrop-filter: blur( 20px );
   border-radius: 10px;
-  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  border: 3px solid rgba(250, 247, 247, 0.797);
+  object-fit: cover;
 
 }
 [poster]{
- 
-
-    height:20vh;
- 
-   
+  height: 20vh;
 }
+
 
 .modaltitle{
   position: relative;

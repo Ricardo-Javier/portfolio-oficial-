@@ -28,14 +28,14 @@ function Section1 () {
     <>
       <div className='section1'  >
       <h1 className={`hello ${actionClass}`} >
-        hello
+        Hello
       </h1>      
    
       <h1 ref={ref} className={`ric ${actionClass}`}>
          I'M RICARDO 
       </h1>
       <h1  className={`beg ${actionClass}`}>
-        a beginner front-end developer     
+        A Front-End Developer     
       </h1> 
       </div>
       <div ref={ref} className={`scroll-anim ${actionClass}`}>

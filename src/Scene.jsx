@@ -14,7 +14,7 @@ import { Html } from './Components/Html'
 function Scene() {  
 
   return (
-    <ScrollControls  damping={7} pages={9.3} style={{ height: '100vh', position:'fixed' }}>      
+    <ScrollControls  damping={7} pages={8.6} style={{ height: '100vh', position:'fixed' }}>      
       <Glitch rotation={[0.1,-20.9,-0.4]}  position={[6,-25,-6]}/>     
       <Lights/>
       <Particles />    

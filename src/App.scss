@@ -20,24 +20,24 @@ html {
 .bg {
   position: fixed;  
   width: 100vw;
-  height: 100vh;
-  background: rgba(0, 0, 0, 0.138) url('http://assets.iceable.com/img/noise-transparent.png') repeat 0 0;
+  height: 1000vh;
+  // background: rgba(0, 0, 0, 0.344) url('http://assets.iceable.com/img/noise-transparent.png') repeat 0 0;
+  background-color: #00000071;
   background-repeat:repeat;
-  animation: bg-animation .2s infinite;
   opacity: 1;
   visibility: visible;
-  z-index: 999999999;
-  pointer-events: none;
+  overflow:-moz-hidden-unscrollable;
+  
 }
 
-// .bg{
-//   transition: all 500ms ease-in-out;
-// transition-delay: 4000ms;
-// }
+.bg{
+  transition: all 1000ms ease-in-out;
+transition-delay: 4000ms;
+}
 
-// .bg.outview { 
-//   opacity: 0;
-// }
+.bg.outview { 
+  opacity: 0;
+}
 
 // @keyframes bg-animation {
 //     0% { transform: translate(0,0) }
@@ -57,7 +57,7 @@ html {
 
 
 .title{
-font-size: 6vh;
+font-size: 5vh;
 font-family: 'Orbitron', sans-serif;
 font-weight:900;
 text-shadow:  10px 10px 10px rgba(54, 47, 47, 0.353);
@@ -158,6 +158,7 @@ svg:hover{
   height: 3px;
   position: absolute;
   top: -120vh;
+  scroll-behavior: smooth;
 }
 
 

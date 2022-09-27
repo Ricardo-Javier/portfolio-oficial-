@@ -28,12 +28,12 @@ function Section2 () {
       <div ref={ref} className={`section2 ${actionClass}`}>
       <h1 className='title'>ABOUT ME </h1>
       <div className='about-container'>       
-      <h1 className='about'> FULL STACK WEB DEVELOPMENT CERTIFICATE </h1>
-      <h1 className='about'> FRONT-END FOCUSED </h1>
-      <h1 className='about'> INTERESTED IN WEB INTERACTION | WEB ANIMATION | WEB 3D </h1>      
-      <h1 className='about'> ENGLISH | SPANISH </h1>
-      <h1 className='about'> INTERNATIONAL BUSINESS | CUSTOMER SERVICE BACKGROUND</h1>
-      <h1 className='about'> SELF-DEVELOPED | HARD-WORKER | PASSIONATE </h1>     
+      <h1 className='about'> Full stack web development certificate </h1>
+      <h1 className='about'> Front-End focused </h1>
+      <h1 className='about'> Interest in web interaction, web animation, web 3d </h1>      
+      <h1 className='about'> English - Spanish </h1>
+      <h1 className='about'> International business, customer service background</h1>
+      <h1 className='about'> Self-developed, hard-working, passionate </h1>     
       <div className='about ab-seven'>       
       More about me? <Button className='mainbutton resumebutton' href={resume} download="Resume Ricardo" > 
         Download my Resume

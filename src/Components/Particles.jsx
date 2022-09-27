@@ -4,7 +4,7 @@ import React, { useRef } from 'react'
 
 const particleColors = ['white']
 
-function Particles({ size = 1500 }) {
+function Particles({ size = 500 }) {
   const { width, height } = useThree((state) => state.viewport)
   const ref = useRef()
 
@@ -17,7 +17,7 @@ function Particles({ size = 1500 }) {
 
   return (
     <Points ref={ref}  limit={size}>
-      <pointsMaterial size={0.06} vertexColors/>
+      <pointsMaterial size={0.08} vertexColors/>
       {Array.from({ length: size }).map((_, i) => (
         <Point 
           key={i}

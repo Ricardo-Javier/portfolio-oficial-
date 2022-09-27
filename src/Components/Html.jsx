@@ -10,7 +10,8 @@ function Html() {
   return (
     <>
     <div className='top-page' id='top'></div>
-    
+
+    <div className='bg'>
       <div className
         style={{
           position: 'absolute',
@@ -24,7 +25,7 @@ function Html() {
       <div className
         style={{
           position: 'absolute',
-          top: '150vh',
+          top: '130vh',
           left: '50vw',
           transform: 'translateX(-50%)',
          
@@ -35,7 +36,7 @@ function Html() {
       <div className
         style={{
           position: 'absolute',
-          top: '300vh',
+          top: '290vh',
           left: '50vw',
           transform: 'translateX(-50%)',
                  
@@ -45,7 +46,7 @@ function Html() {
       <div className
         style={{
           position: 'absolute',
-          top: '450vh',
+          top: '420vh',
           left: '50vw',
           transform: 'translateX(-50%)',
                 
@@ -55,7 +56,7 @@ function Html() {
       <div className
         style={{
           position: 'absolute',
-          top: '650vh',
+          top: '600vh',
           left: '50vw',
           transform: 'translateX(-50%)',
                  
@@ -65,12 +66,13 @@ function Html() {
       <div className
         style={{
           position: 'absolute',
-          top: '800vh',
+          top: '730vh',
           left: '50vw',
           transform: 'translateX(-50%)',
                
         }}>
         <Section6/>
+      </div>
       </div>
     </>
   )
