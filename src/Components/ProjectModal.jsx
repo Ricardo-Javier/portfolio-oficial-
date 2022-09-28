@@ -66,7 +66,7 @@ const Modals = () => {
         </a>
         </div>
         
-        <video webkit-playsinline={true} playsInline width="400" autoPlay poster='https://upload.wikimedia.org/wikipedia/commons/a/ad/YouTube_loading_symbol_3_%28transparent%29.gif'>
+        <video webkit-playsinline={true} playsInline width="400" autoPlay poster='https://i.gifer.com/JVX7.gif'>
   <source src={card.video} type="video/mp4"/>
  
   Your browser does not support HTML video.
