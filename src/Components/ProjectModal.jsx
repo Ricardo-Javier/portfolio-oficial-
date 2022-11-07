@@ -64,6 +64,8 @@ const Modals = () => {
         <a href={card.github} target ='_blank' rel='noreferrer'>
         <FontAwesomeIcon icon={faGithub} style={{cursor: 'pointer'}} />
         </a>
+        <p className='icon-title'>View Site</p>       
+        <p className='icon-title'>Github Project</p>
         </div>
         
         <video webkit-playsinline={true} playsInline width="400" autoPlay poster='https://i.gifer.com/JVX7.gif'>

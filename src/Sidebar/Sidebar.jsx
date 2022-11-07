@@ -1,7 +1,7 @@
 import React from "react";
 import './Sidebar.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLinkedin, faGithub, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
+import { faLinkedin, faGithub} from '@fortawesome/free-brands-svg-icons';
 import { useInView } from "react-intersection-observer";
 
 
@@ -40,14 +40,7 @@ const Sidebar = () => {
             <FontAwesomeIcon icon={faGithub} />
           </a>
         </li>
-        <li>
-          <a href="https://wa.me/13052162077" rel="noreferrer" target="_blank">
-            <FontAwesomeIcon icon={faWhatsapp}/>
-          </a>
-        </li>     
-     </ul>
-   
-    
+     </ul>    
    </div>
 </>
 

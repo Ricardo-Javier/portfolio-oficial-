@@ -2,8 +2,7 @@ import React from 'react'
 import './Section5.scss';
 import {ContactForm} from './ContactForm';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {faWhatsapp, faLinkedin} from '@fortawesome/free-brands-svg-icons';
-import { faPhone } from '@fortawesome/free-solid-svg-icons';
+import {faLinkedin, faGithub} from '@fortawesome/free-brands-svg-icons';
 import { useInView } from "react-intersection-observer";
 
 
@@ -34,19 +33,18 @@ function Section5() {
         <br/>I'm open to learn everything with passion and hard-working.       
           </p>
           <ul className='icon-anim-cont'>
-       <li>
-         <a href="https://wa.me/13052162077" rel="noreferrer" target="_blank">
-           <FontAwesomeIcon icon={faWhatsapp}/>
-           </a>
-       </li>
-       <li>
-          <a href="tel:+1-305-216-2077" rel="noreferrer" target="_blank">
-            <FontAwesomeIcon icon={faPhone} />
-          </a>
-        </li>
         <li>
         <a target ='_blank' rel='noreferrer' href ='https://www.linkedin.com/in/rsalinaszambrano/'>
             <FontAwesomeIcon icon={faLinkedin}/>
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://github.com/ricardo-javier"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <FontAwesomeIcon icon={faGithub} />
           </a>
         </li>
      </ul>     
